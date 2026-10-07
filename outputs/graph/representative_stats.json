@@ -1,0 +1,15 @@
+{
+  "nodes": 5000,
+  "edges": 5000,
+  "zones": [
+    "south",
+    "central",
+    "north",
+    "east",
+    "west"
+  ],
+  "development_sample_per_zone": 1000,
+  "total_sampled_roads": 5000,
+  "training_mode": "static_road_development",
+  "temporal_traffic_available": false
+}

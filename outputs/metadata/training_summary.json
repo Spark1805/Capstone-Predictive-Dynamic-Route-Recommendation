@@ -1,0 +1,17 @@
+{
+  "best_validation_loss": 1.4558504030251892e-06,
+  "epochs": 50,
+  "device": "cpu",
+  "zones": [
+    "south",
+    "central",
+    "north",
+    "east",
+    "west"
+  ],
+  "synthetic": false,
+  "training_mode": "static_road_development",
+  "temporal_traffic": false,
+  "target": "static_maxspeed",
+  "warning": "This model was trained on static road attributes. It is NOT a measured temporal traffic forecasting result."
+}

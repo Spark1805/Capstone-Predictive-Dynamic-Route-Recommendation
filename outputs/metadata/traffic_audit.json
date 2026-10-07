@@ -1,0 +1,42 @@
+{
+  "central": {
+    "available": false,
+    "timestamp": null,
+    "speed": null,
+    "message": "The supplied datasets contain road-network topology and attributes but do not contain temporal traffic observations.",
+    "static_road_data_only": true,
+    "training_mode": "static_road_development"
+  },
+  "east": {
+    "available": false,
+    "timestamp": null,
+    "speed": null,
+    "message": "The supplied datasets contain road-network topology and attributes but do not contain temporal traffic observations.",
+    "static_road_data_only": true,
+    "training_mode": "static_road_development"
+  },
+  "north": {
+    "available": false,
+    "timestamp": null,
+    "speed": null,
+    "message": "The supplied datasets contain road-network topology and attributes but do not contain temporal traffic observations.",
+    "static_road_data_only": true,
+    "training_mode": "static_road_development"
+  },
+  "south": {
+    "available": false,
+    "timestamp": null,
+    "speed": null,
+    "message": "The supplied datasets contain road-network topology and attributes but do not contain temporal traffic observations.",
+    "static_road_data_only": true,
+    "training_mode": "static_road_development"
+  },
+  "west": {
+    "available": false,
+    "timestamp": null,
+    "speed": null,
+    "message": "The supplied datasets contain road-network topology and attributes but do not contain temporal traffic observations.",
+    "static_road_data_only": true,
+    "training_mode": "static_road_development"
+  }
+}
