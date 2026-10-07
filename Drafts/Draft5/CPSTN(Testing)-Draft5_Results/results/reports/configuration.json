@@ -1,0 +1,16 @@
+{
+  "dataset": "METR-LA",
+  "checkpoint": "/content/CPSTN(Training)-Draft5_final.pt",
+  "seed": 42,
+  "device": "cuda",
+  "num_nodes": 207,
+  "input_steps": 12,
+  "horizon": 12,
+  "input_channels": 1,
+  "hidden": 32,
+  "dropout": 0.1,
+  "test_windows": 6844,
+  "test_boundary_row": 27417,
+  "normalization": "checkpoint train-period per-sensor z-score",
+  "mape_denominator_floor": 5.0
+}
