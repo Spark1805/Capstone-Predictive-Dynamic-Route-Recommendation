@@ -1,0 +1,16 @@
+group,item,status,details
+notebook_integrity,original_testing_notebook_inspected,PASS,20 original cells inspected; new research notebook is a separate file.
+directed_link,dot_product_directionality,PASS,"Code inspection: score(u,v)=dot(e_u,e_v)/sqrt(d), therefore score(u,v)=score(v,u)."
+heldout_evaluation,independent_test_split,BLOCKED,"No project checkpoints, saved train/validation edge lists, sampled graph, or node mapping were supplied alongside this notebook. The existing loader expects sampled_nodes in the RoadStructure checkpoint schema, but independent train/test membership cannot be verified without actual artifacts."
+baseline_comparison,same-heldout-candidates,BLOCKED,"Requires a valid held-out positive set, known-positive exclusion set, candidate generation protocol, and aligned graph/node mapping."
+forecasting,real-world-traffic-forecast-validation,BLOCKED,No compatible checkpoint/data has been loaded in this run; static maxspeed metadata is not timestamped observed traffic.
+directed_link,dot_product_is_symmetric,PASS,"Original scoring function cannot distinguish (u,v) from (v,u)."
+directed_link,dot_product_is_symmetric,PASS,"Original scoring function cannot distinguish (u,v) from (v,u)."
+dataset_provenance,six_zone_metadata_audit,PASS,Metadata-only audit; source availability and training graph contribution are not assumed.
+heldout_evaluation,classification_and_ranking_metrics,BLOCKED,"No verified independent held-out set was available to this execution; CSV created with headers only, no fabricated metric rows."
+baseline_comparison,random_degree_common_neighbor_embedding,BLOCKED,"No shared, verified held-out candidates and source graph were available; comparison CSV created with headers only."
+routing,astar_matches_dijkstra,PASS,cost=5.0
+routing,source_equals_destination,PASS,single-node route
+routing,unreachable_destination,PASS,no path correctly detected
+routing,negative_cost_rejection,PASS,negative edge cost rejected by explicit validation
+CPSTN_forecasting,checkpoint_load_and_inference_test,SKIP,No compatible CPSTN checkpoint was available to load.

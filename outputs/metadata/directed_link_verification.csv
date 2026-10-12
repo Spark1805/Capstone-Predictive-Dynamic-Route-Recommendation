@@ -1,0 +1,2 @@
+test,status,seed,pairs_tested,max_absolute_score_difference,interpretation
+dot_product_is_symmetric,PASS,42,3,0.0,"Original scoring function cannot distinguish (u,v) from (v,u)."

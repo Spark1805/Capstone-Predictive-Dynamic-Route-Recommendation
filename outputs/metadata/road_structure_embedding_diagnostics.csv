@@ -1,0 +1,3 @@
+checkpoint,nodes,embedding_dim,mean_embedding_norm,std_embedding_norm,random_pair_score_mean,random_pair_score_std,note
+RoadStructure_best.pt,86611,32,4.1472086906433105,0.9032894968986511,0.006839371751993895,0.5411654114723206,Diagnostics only; no held-out labels available.
+RoadStructure_final.pt,86611,32,4.1472086906433105,0.9032894968986511,0.006839371751993895,0.5411654114723206,Diagnostics only; no held-out labels available.

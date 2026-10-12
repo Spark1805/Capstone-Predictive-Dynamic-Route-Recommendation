@@ -1,0 +1,11 @@
+{
+  "project_root": "C:\\Users\\prana\\Downloads\\capstone_final_draft",
+  "device": "cpu",
+  "checkpoint_count": 2,
+  "roadstructure_checkpoints_tested": 2,
+  "cpstn_checkpoints_tested": 0,
+  "routing_tests_passed": 4,
+  "traffic_forecasting_accuracy_validated": false,
+  "output_directory": "C:\\Users\\prana\\Downloads\\capstone_final_draft\\outputs\\testing_research_evaluation",
+  "note": "Checkpoint load/smoke tests and synthetic routing tests do not prove traffic forecasting accuracy."
+}

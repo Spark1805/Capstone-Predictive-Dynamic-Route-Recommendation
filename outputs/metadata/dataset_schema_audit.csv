@@ -1,0 +1,7 @@
+file,layer,road_id,maxspeed,timestamp,observed_speed,status
+central-zone.gpkg,gis_osm_roads_free,osm_id,maxspeed,,,SCHEMA_CHECKED
+eastern-zone.gpkg,gis_osm_roads_free,osm_id,maxspeed,,,SCHEMA_CHECKED
+north-eastern-zone.gpkg,gis_osm_roads_free,osm_id,maxspeed,,,SCHEMA_CHECKED
+northern-zone.gpkg,gis_osm_roads_free,osm_id,maxspeed,,,SCHEMA_CHECKED
+southern-zone.gpkg,gis_osm_roads_free,osm_id,maxspeed,,,SCHEMA_CHECKED
+western-zone.gpkg,gis_osm_roads_free,osm_id,maxspeed,,,SCHEMA_CHECKED

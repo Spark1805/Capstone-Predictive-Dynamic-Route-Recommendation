@@ -1,0 +1,15 @@
+{
+  "project_root": "C:\\Users\\prana\\Downloads\\capstone_final_draft",
+  "data_dir": "C:\\Users\\prana\\Downloads\\capstone_final_draft\\data",
+  "output_dir": "C:\\Users\\prana\\Downloads\\capstone_final_draft\\outputs\\testing_research_evaluation",
+  "python_version": "3.10.11",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "seed": 42,
+  "passed": 9,
+  "failed": 0,
+  "skipped": 1,
+  "blocked": 5,
+  "link_prediction_metrics_measured": false,
+  "traffic_forecasting_accuracy_validated": false,
+  "note": "A blocked evaluation is not a failed model; it means required evidence/artifacts were not available or could not be verified."
+}

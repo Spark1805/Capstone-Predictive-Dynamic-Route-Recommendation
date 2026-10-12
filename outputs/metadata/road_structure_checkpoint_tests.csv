@@ -1,0 +1,3 @@
+checkpoint,status,nodes,embedding_dim,notes
+RoadStructure_best.pt,PASS,86611,32,"forward scores=[5.170884132385254, 3.973919153213501]"
+RoadStructure_final.pt,PASS,86611,32,"forward scores=[5.170884132385254, 3.973919153213501]"

@@ -1,0 +1,3 @@
+name,path,status,format,notes
+RoadStructure_best.pt,C:\Users\prana\Downloads\capstone_final_draft\outputs\checkpoints\RoadStructure_best.pt,PASS,RoadStructure,node_count=86611
+RoadStructure_final.pt,C:\Users\prana\Downloads\capstone_final_draft\outputs\checkpoints\RoadStructure_final.pt,PASS,RoadStructure,node_count=86611

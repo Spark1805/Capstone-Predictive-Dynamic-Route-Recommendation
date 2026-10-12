@@ -1,0 +1,5 @@
+test,result,details
+astar_matches_dijkstra,PASS,cost=5.0
+source_equals_destination,PASS,single-node route
+unreachable_destination,PASS,no path correctly detected
+negative_cost_rejection,PASS,negative edge cost rejected by explicit validation

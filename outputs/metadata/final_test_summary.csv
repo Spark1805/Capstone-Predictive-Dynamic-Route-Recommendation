@@ -1,0 +1,10 @@
+group,item,status,details
+checkpoint_load,RoadStructure_best.pt,PASS,node_count=86611
+checkpoint_load,RoadStructure_final.pt,PASS,node_count=86611
+RoadStructure,RoadStructure_best.pt,PASS,"forward scores=[5.170884132385254, 3.973919153213501]"
+RoadStructure,RoadStructure_final.pt,PASS,"forward scores=[5.170884132385254, 3.973919153213501]"
+CPSTN,compatible checkpoint,SKIP,No matching checkpoint found.
+routing,astar_matches_dijkstra,PASS,cost=5.0
+routing,source_equals_destination,PASS,single-node route
+routing,unreachable_destination,PASS,no path correctly detected
+routing,negative_cost_rejection,PASS,negative edge cost rejected by explicit validation
